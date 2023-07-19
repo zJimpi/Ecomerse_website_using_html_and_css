@@ -1,0 +1,422 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:#121212;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+   
+}
+img{
+    width: 400px;
+    height: 500px;
+    background-size: contain;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+/* header style */
+header{
+    background-color: pink;
+    text-align: center;
+}
+#top_heading{
+    padding: 10px;
+    
+
+}
+#header_div2{
+    background-color: aliceblue;
+}
+#top-barmenue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+.menu{
+    font-size: 15px;
+
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 20px;
+}
+/* main content style */
+/* new_arrival_text */
+#new_arrival{
+    margin:50px;
+    display: flex;
+    width: 840px;
+    margin:auto;
+    padding:20px;
+    /*border: 2px solid black ;  box----------------------------- */
+}
+.new_arrival_text{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+    
+}
+#justin{
+    text-align: left;
+}
+#shop_stikers{
+    padding: 10px;
+    background-color: pink;
+    margin: 20px;
+    margin-top:0px;
+    border-color: #121212;
+}
+/* best sellers */
+
+#heading_bestsellar{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.outer_bestsellar_img_class{
+    height:500px;
+    display:flex;
+    width: 1000px;
+    margin:auto;
+    
+    /*border: 2px solid black ;  box---------------bestsellar------------------- */
+   
+}
+.top_bestsellar_img_class{
+   
+    height:500px;
+    width:400px;
+    
+}
+#bestsellar1{
+    height:450px;
+    width:300px;
+}
+.other_bestsellar{
+    
+    height:500px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+#bestsellar2{
+    height: 168px;
+    width:168px;
+   
+    margin: 20px;
+}
+#bestsellar3{
+    height: 168px;
+    width:168px;
+   
+    margin: 20px;
+
+}
+#bestsellar4{
+    height: 168px;
+    width:168px;
+   
+    margin: 20px;
+
+}
+#bestsellar5{
+    height: 168px;
+    width:168px;
+    
+    margin: 20px;
+
+}
+#bestsellar6{
+    height: 168px;
+    width:168px;
+   
+    margin: 20px;
+
+}
+#bestsellar7{
+    height: 168px;
+    width:168px;
+   
+    margin: 20px;
+
+}
+
+/* stay up to date */
+#stay_up_to_date{
+    background-color: pink;
+    padding: 40px;
+    text-align: center;
+}
+
+#stay_input{
+    height: 50px;
+    width: 400px;
+    background-color: rgb(255, 219, 225);
+    padding-left: 20px;
+    border: none;
+   
+}
+/* favorites */
+#favorites_heading{
+    
+    text-align: center;
+    margin: 40px;
+}
+#favorites_box{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+#fav1{
+    height: 300px;
+    width: 300px;
+}
+#fav2{
+    height: 300px;
+    width: 300px;
+}
+#fav3{
+    height: 300px;
+    width: 300px;
+}
+/* sticker */
+
+.stiker_img{
+    width:auto;
+    height: 350px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+#stiker_heading{
+    padding-bottom: 20px;
+    
+}
+
+#stiker1{
+    height: 250px;
+    width: 250px;
+    
+}
+#stiker2{
+    height: 250px;
+    width: 250px;
+}
+#stiker3{
+    height: 250px;
+    width: 250px;
+}
+#stiker4{
+    height: 250px;
+    width: 250px;
+}
+#button_box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#viewall_button{
+    background-color: pink;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: none;
+}
+/* F A Q */
+.faq{
+    width: 1000px;
+    margin:auto;
+}
+.ques_box{
+    margin: 20px;
+}
+#q1{
+    padding:20px;
+    background-color:pink;
+    border-radius: 10px;
+   
+}
+#q2{
+    padding:20px;
+    background-color: pink;
+    border-radius: 10px;
+    
+}
+#q3{
+    padding:20px;
+    background-color: pink;
+    border-radius: 10px;
+    
+}
+#sum1{
+    color: rgb(46, 6, 20);
+}
+.ans{
+    margin-top: 5px;
+    padding:20px;
+    background-color:rgb(255, 221, 226);
+    border-radius: 10px;
+}
+/* footer style */
+footer{
+    padding: 40px;
+    background-color:pink;
+    
+    
+}
+.connect_list{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 40px;
+
+}
+.footer_notes{
+    text-align: center;
+   
+}
+#email_join{
+    font-size: 25px;
+}
+#email_box{
+    width: 400PX;
+    height: 50Px;
+    font-size: 15px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#copyright{
+    margin:20px;
+    text-align: center;
+
+}
+h2{
+font-size: 15px;
+}
+
+/* media responsive */
+
+@media (min-width : 1060px) {/*bigger page----------- */
+    #new_arrival{
+        width: 940px;
+
+    }
+    
+}
+@media (max-width:412px) {/*mobile view ----------- */
+    
+    #new_arrival{
+        width: 300px;
+        display: block;
+    }
+    #new_stiker{
+        width: 300px;
+        height: 400px;
+    }
+    /* bestsellars */
+    .top_bestsellar_img_class{
+        display:none;
+    }
+    .outer_bestsellar_img_class{
+       width:auto;
+        height:600px;
+        margin: 0px;
+        justify-content: flex-start;
+    }
+    .other_bestsellar{
+        padding:0px;
+        margin: 0px;
+    }
+    
+    #bestsellar2{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+    #bestsellar3{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+    #bestsellar4{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+    #bestsellar5{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+    #bestsellar6{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+    #bestsellar7{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+
+    /* stay up to date */
+    #stay_input{
+        width: auto;
+    }
+    /* fav */
+    #favorites_box{
+        height: auto;
+    }
+    /* stikers */
+    .stiker_img{
+        height: auto;
+    }
+    #stiker1{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+    #stiker2{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+    #stiker3{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+    #stiker4{
+        width:150px;
+        height:150px;
+        margin: 0px;
+    }
+
+    /* faq */
+    .faq{
+        width: auto;
+    }
+    #email_box{
+        width: auto;
+    }
+}
